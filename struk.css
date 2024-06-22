@@ -1,0 +1,115 @@
+/* Menu Section */
+#menu {
+  padding: 2rem 7%;
+  background-color: var(--bg);
+  color: #ff6600;
+}
+
+#menu h2 {
+  text-align: center;
+  margin-bottom: 2rem;
+}
+
+#menu table {
+  width: 100%;
+  border-collapse: collapse;
+  margin: 0 auto 2rem auto;
+}
+
+#menu th,
+#menu td {
+  border: 1px solid #d47100;
+  padding: 0.75rem;
+  text-align: left;
+}
+
+#menu th {
+  background-color: var(--primary);
+}
+
+#menu tr:nth-child(even) {
+  background-color: #333;
+}
+
+/* Order Form Section */
+#order {
+  padding: 2rem 7%;
+  background-color: var(--bg);
+  color: #f09c00;
+}
+
+.order-container {
+  max-width: 600px;
+  margin: 0 auto;
+  padding: 1rem;
+  background-color: #ffb341;
+  border-radius: 10px;
+  color: #000;
+}
+
+.order-container h2 {
+  text-align: center;
+  margin-bottom: 1rem;
+}
+
+.order-container form {
+  display: flex;
+  flex-direction: column;
+}
+
+.order-container label {
+  margin: 0.5rem 0;
+}
+
+.order-container select,
+.order-container input {
+  padding: 0.5rem;
+  border: 1px solid #000;
+  border-radius: 5px;
+  margin-bottom: 1rem;
+}
+
+.order-container button {
+  align-self: center;
+  padding: 0.75rem 2rem;
+  font-size: 1rem;
+  color: #000000;
+  background-color: var(--primary);
+  border: none;
+  border-radius: 25px;
+  cursor: pointer;
+}
+
+.order-container button:hover {
+  background-color: #000000;
+}
+
+#order-summary {
+  margin-top: 2rem;
+}
+
+#order-table {
+  width: 100%;
+  border-collapse: collapse;
+  margin: 2rem 0;
+}
+
+#order-table,
+#order-table th,
+#order-table td {
+  border: 1px solid #000;
+}
+
+#order-table th,
+#order-table td {
+  padding: 0.75rem;
+  text-align: left;
+}
+
+#order-table th {
+  background-color: var(--primary);
+}
+
+#order-table tr:nth-child(even) {
+  background-color: #ff8800;
+}
